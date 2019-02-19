@@ -1,0 +1,354 @@
+<!DOCTYPE qgis_style>
+<qgis_style version="1">
+  <symbols>
+    <symbol favorite="1" type="marker" name="natural-seasonal-high" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,255,255,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="31,120,180,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="natural-seasonal-low" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,255,255,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="255,127,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="natural-seasonal-normal" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,255,255,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="51,160,44,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="natural-yearly-high" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="31,120,180,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="natural-yearly-low" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,127,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="natural-yearly-normal" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="51,160,44,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="circle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-seasonal-high" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="148,228,105,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="31,120,180,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-seasonal-low" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,127,0,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="255,127,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-seasonal-natural" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="99,199,214,0" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="51,160,44,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0.6" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-yearly-high" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="31,120,180,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-yearly-low" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="255,127,0,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+    <symbol favorite="1" type="marker" name="regulated-yearly-normal" clip_to_extent="1" alpha="1">
+      <layer enabled="1" pass="0" class="SimpleMarker" locked="0">
+        <prop v="0" k="angle"/>
+        <prop v="51,160,44,255" k="color"/>
+        <prop v="1" k="horizontal_anchor_point"/>
+        <prop v="bevel" k="joinstyle"/>
+        <prop v="triangle" k="name"/>
+        <prop v="0,0" k="offset"/>
+        <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+        <prop v="MM" k="offset_unit"/>
+        <prop v="0,0,0,255" k="outline_color"/>
+        <prop v="solid" k="outline_style"/>
+        <prop v="0" k="outline_width"/>
+        <prop v="3x:0,0,0,0,0,0" k="outline_width_map_unit_scale"/>
+        <prop v="MM" k="outline_width_unit"/>
+        <prop v="diameter" k="scale_method"/>
+        <prop v="2" k="size"/>
+        <prop v="3x:0,0,0,0,0,0" k="size_map_unit_scale"/>
+        <prop v="MM" k="size_unit"/>
+        <prop v="1" k="vertical_anchor_point"/>
+        <data_defined_properties>
+          <Option type="Map">
+            <Option type="QString" name="name" value=""/>
+            <Option name="properties"/>
+            <Option type="QString" name="type" value="collection"/>
+          </Option>
+        </data_defined_properties>
+      </layer>
+    </symbol>
+  </symbols>
+  <colorramps/>
+</qgis_style>

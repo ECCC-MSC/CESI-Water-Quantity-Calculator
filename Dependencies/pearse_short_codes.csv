@@ -1,0 +1,965 @@
+STATION_NUMBER,PEARSEDA,PERSEDA_CODE
+01AD,Saint John - St. Croix,23
+01AE,Saint John - St. Croix,23
+01AF,Saint John - St. Croix,23
+01AG,Saint John - St. Croix,23
+01AH,Saint John - St. Croix,23
+01AJ,Saint John - St. Croix,23
+01AK,Saint John - St. Croix,23
+01AL,Saint John - St. Croix,23
+01AM,Saint John - St. Croix,23
+01AN,Saint John - St. Croix,23
+01AO,Saint John - St. Croix,23
+01AP,Saint John - St. Croix,23
+01AQ,Saint John - St. Croix,23
+01AR,Saint John - St. Croix,23
+01B1,Maritime Coastal,24
+01BA,Maritime Coastal,24
+01BB,Maritime Coastal,24
+01BC,Maritime Coastal,24
+01BD,Maritime Coastal,24
+01BE,Maritime Coastal,24
+01BF,Maritime Coastal,24
+01BG,Maritime Coastal,24
+01BH,Maritime Coastal,24
+01BJ,Maritime Coastal,24
+01BK,Maritime Coastal,24
+01BL,Maritime Coastal,24
+01BM,Maritime Coastal,24
+01BN,Maritime Coastal,24
+01BO,Maritime Coastal,24
+01BP,Maritime Coastal,24
+01BQ,Maritime Coastal,24
+01BR,Maritime Coastal,24
+01BS,Maritime Coastal,24
+01BT,Maritime Coastal,24
+01BU,Maritime Coastal,24
+01BV,Maritime Coastal,24
+01CA,Maritime Coastal,24
+01CB,Maritime Coastal,24
+01CC,Maritime Coastal,24
+01CD,Maritime Coastal,24
+01CE,Maritime Coastal,24
+01DA,Maritime Coastal,24
+01DB,Maritime Coastal,24
+01DC,Maritime Coastal,24
+01DD,Maritime Coastal,24
+01DE,Maritime Coastal,24
+01DF,Maritime Coastal,24
+01DG,Maritime Coastal,24
+01DH,Maritime Coastal,24
+01DJ,Maritime Coastal,24
+01DK,Maritime Coastal,24
+01DL,Maritime Coastal,24
+01DM,Maritime Coastal,24
+01DN,Maritime Coastal,24
+01DO,Maritime Coastal,24
+01DP,Maritime Coastal,24
+01DQ,Maritime Coastal,24
+01DR,Maritime Coastal,24
+01DS,Maritime Coastal,24
+01EA,Maritime Coastal,24
+01EB,Maritime Coastal,24
+01EC,Maritime Coastal,24
+01ED,Maritime Coastal,24
+01EE,Maritime Coastal,24
+01EF,Maritime Coastal,24
+01EG,Maritime Coastal,24
+01EH,Maritime Coastal,24
+01EJ,Maritime Coastal,24
+01EK,Maritime Coastal,24
+01EL,Maritime Coastal,24
+01EM,Maritime Coastal,24
+01EN,Maritime Coastal,24
+01EO,Maritime Coastal,24
+01EP,Maritime Coastal,24
+01EQ,Maritime Coastal,24
+01ER,Maritime Coastal,24
+01FA,Maritime Coastal,24
+01FB,Maritime Coastal,24
+01FC,Maritime Coastal,24
+01FD,Maritime Coastal,24
+01FE,Maritime Coastal,24
+01FF,Maritime Coastal,24
+01FG,Maritime Coastal,24
+01FH,Maritime Coastal,24
+01FJ,Maritime Coastal,24
+02AB,Great Lakes,19
+02AC,Great Lakes,19
+02AD,Great Lakes,19
+02AE,Great Lakes,19
+02BA,Great Lakes,19
+02BB,Great Lakes,19
+02BC,Great Lakes,19
+02BD,Great Lakes,19
+02BE,Great Lakes,19
+02BF,Great Lakes,19
+02CA,Great Lakes,19
+02CB,Great Lakes,19
+02CC,Great Lakes,19
+02CD,Great Lakes,19
+02CE,Great Lakes,19
+02CF,Great Lakes,19
+02CG,Great Lakes,19
+02CH,Great Lakes,19
+02DA,Great Lakes,19
+02DB,Great Lakes,19
+02DC,Great Lakes,19
+02DD,Great Lakes,19
+02EA,Great Lakes,19
+02EB,Great Lakes,19
+02EC,Great Lakes,19
+02ED,Great Lakes,19
+02FA,Great Lakes,19
+02FB,Great Lakes,19
+02FC,Great Lakes,19
+02FD,Great Lakes,19
+02FE,Great Lakes,19
+02FF,Great Lakes,19
+02GA,Great Lakes,19
+02GB,Great Lakes,19
+02GC,Great Lakes,19
+02GD,Great Lakes,19
+02GE,Great Lakes,19
+02GF,Great Lakes,19
+02GG,Great Lakes,19
+02GH,Great Lakes,19
+02HA,Great Lakes,19
+02HB,Great Lakes,19
+02HC,Great Lakes,19
+02HD,Great Lakes,19
+02HE,Great Lakes,19
+02HF,Great Lakes,19
+02HG,Great Lakes,19
+02HH,Great Lakes,19
+02HJ,Great Lakes,19
+02HK,Great Lakes,19
+02HL,Great Lakes,19
+02HM,Great Lakes,19
+02JA,Ottawa,20
+02JB,Ottawa,20
+02JC,Ottawa,20
+02JD,Ottawa,20
+02JE,Ottawa,20
+02KA,Ottawa,20
+02KB,Ottawa,20
+02KC,Ottawa,20
+02KD,Ottawa,20
+02KE,Ottawa,20
+02KF,Ottawa,20
+02KG,Ottawa,20
+02KH,Ottawa,20
+02KJ,Ottawa,20
+02LA,Ottawa,20
+02LB,Ottawa,20
+02LC,Ottawa,20
+02LD,Ottawa,20
+02LE,Ottawa,20
+02LF,Ottawa,20
+02LG,Ottawa,20
+02LH,Ottawa,20
+02MA,Great Lakes,19
+02MB,St. Lawrence,21
+02MC,St. Lawrence,21
+02NA,St. Lawrence,21
+02NB,St. Lawrence,21
+02NC,St. Lawrence,21
+02ND,St. Lawrence,21
+02NE,St. Lawrence,21
+02NF,St. Lawrence,21
+02NG,St. Lawrence,21
+02OA,St. Lawrence,21
+02OB,St. Lawrence,21
+02OC,St. Lawrence,21
+02OD,St. Lawrence,21
+02OE,St. Lawrence,21
+02OF,St. Lawrence,21
+02OG,St. Lawrence,21
+02OH,St. Lawrence,21
+02OJ,St. Lawrence,21
+02PA,St. Lawrence,21
+02PB,St. Lawrence,21
+02PC,St. Lawrence,21
+02PD,St. Lawrence,21
+02PE,St. Lawrence,21
+02PF,St. Lawrence,21
+02PG,St. Lawrence,21
+02PH,St. Lawrence,21
+02PJ,St. Lawrence,21
+02PK,St. Lawrence,21
+02PL,St. Lawrence,21
+02QA,North Shore - Gaspe,22
+02QB,North Shore - Gaspe,22
+02QC,North Shore - Gaspe,22
+02RA,North Shore - Gaspe,22
+02RB,North Shore - Gaspe,22
+02RC,North Shore - Gaspe,22
+02RD,North Shore - Gaspe,22
+02RE,North Shore - Gaspe,22
+02RF,North Shore - Gaspe,22
+02RG,North Shore - Gaspe,22
+02RH,North Shore - Gaspe,22
+02SA,North Shore - Gaspe,22
+02SB,North Shore - Gaspe,22
+02SC,North Shore - Gaspe,22
+02TA,North Shore - Gaspe,22
+02TB,North Shore - Gaspe,22
+02TC,North Shore - Gaspe,22
+02TD,North Shore - Gaspe,22
+02TE,North Shore - Gaspe,22
+02UA,North Shore - Gaspe,22
+02UB,North Shore - Gaspe,22
+02UC,North Shore - Gaspe,22
+02VA,North Shore - Gaspe,22
+02VB,North Shore - Gaspe,22
+02VC,North Shore - Gaspe,22
+02WA,North Shore - Gaspe,22
+02WB,North Shore - Gaspe,22
+02WC,North Shore - Gaspe,22
+02WD,North Shore - Gaspe,22
+02WE,North Shore - Gaspe,22
+02XA,North Shore - Gaspe,22
+02XB,North Shore - Gaspe,22
+02XC,North Shore - Gaspe,22
+02XD,Newfoundland - Labrador,25
+02YA,Newfoundland - Labrador,25
+02YB,Newfoundland - Labrador,25
+02YC,Newfoundland - Labrador,25
+02YD,Newfoundland - Labrador,25
+02YE,Newfoundland - Labrador,25
+02YF,Newfoundland - Labrador,25
+02YG,Newfoundland - Labrador,25
+02YH,Newfoundland - Labrador,25
+02YJ,Newfoundland - Labrador,25
+02YK,Newfoundland - Labrador,25
+02YL,Newfoundland - Labrador,25
+02YM,Newfoundland - Labrador,25
+02YN,Newfoundland - Labrador,25
+02YO,Newfoundland - Labrador,25
+02YP,Newfoundland - Labrador,25
+02YQ,Newfoundland - Labrador,25
+02YR,Newfoundland - Labrador,25
+02YS,Newfoundland - Labrador,25
+02ZA,Newfoundland - Labrador,25
+02ZB,Newfoundland - Labrador,25
+02ZC,Newfoundland - Labrador,25
+02ZD,Newfoundland - Labrador,25
+02ZE,Newfoundland - Labrador,25
+02ZF,Newfoundland - Labrador,25
+02ZG,Newfoundland - Labrador,25
+02ZH,Newfoundland - Labrador,25
+02ZJ,Newfoundland - Labrador,25
+02ZK,Newfoundland - Labrador,25
+02ZL,Newfoundland - Labrador,25
+02ZM,Newfoundland - Labrador,25
+02ZN,Newfoundland - Labrador,25
+03AA,Northern Quebec,18
+03AB,Northern Quebec,18
+03AC,Northern Quebec,18
+03AD,Northern Quebec,18
+03BA,Northern Quebec,18
+03BB,Northern Quebec,18
+03BC,Northern Quebec,18
+03BD,Northern Quebec,18
+03BE,Northern Quebec,18
+03BF,Northern Quebec,18
+03BG,Northern Quebec,18
+03CA,Northern Quebec,18
+03CB,Northern Quebec,18
+03CC,Northern Quebec,18
+03CD,Northern Quebec,18
+03CE,Northern Quebec,18
+03DA,Northern Quebec,18
+03DB,Northern Quebec,18
+03DC,Northern Quebec,18
+03DD,Northern Quebec,18
+03DE,Northern Quebec,18
+03DF,Northern Quebec,18
+03DG,Northern Quebec,18
+03DH,Northern Quebec,18
+03EA,Northern Quebec,18
+03EB,Northern Quebec,18
+03EC,Northern Quebec,18
+03ED,Northern Quebec,18
+03EE,Northern Quebec,18
+03EF,Northern Quebec,18
+03FA,Northern Quebec,18
+03FB,Northern Quebec,18
+03FC,Northern Quebec,18
+03GA,Northern Quebec,18
+03GB,Northern Quebec,18
+03GC,Northern Quebec,18
+03GD,Northern Quebec,18
+03GE,Northern Quebec,18
+03HA,Northern Quebec,18
+03HB,Northern Quebec,18
+03HC,Northern Quebec,18
+03JA,Northern Quebec,18
+03JB,Northern Quebec,18
+03JC,Northern Quebec,18
+03JD,Northern Quebec,18
+03KA,Northern Quebec,18
+03KB,Northern Quebec,18
+03KC,Northern Quebec,18
+03KD,Northern Quebec,18
+03KE,Northern Quebec,18
+03LA,Northern Quebec,18
+03LB,Northern Quebec,18
+03LC,Northern Quebec,18
+03LD,Northern Quebec,18
+03LE,Northern Quebec,18
+03LF,Northern Quebec,18
+03MA,Northern Quebec,18
+03MB,Northern Quebec,18
+03MC,Northern Quebec,18
+03MD,Northern Quebec,18
+03ME,Northern Quebec,18
+03MF,Northern Quebec,18
+03NA,Newfoundland - Labrador,25
+03NB,Newfoundland - Labrador,25
+03NC,Newfoundland - Labrador,25
+03ND,Newfoundland - Labrador,25
+03NE,Newfoundland - Labrador,25
+03NF,Newfoundland - Labrador,25
+03NG,Newfoundland - Labrador,25
+03NH,Newfoundland - Labrador,25
+03OA,Newfoundland - Labrador,25
+03OB,Newfoundland - Labrador,25
+03OC,Newfoundland - Labrador,25
+03OD,Newfoundland - Labrador,25
+03OE,Newfoundland - Labrador,25
+03PA,Newfoundland - Labrador,25
+03PB,Newfoundland - Labrador,25
+03PC,Newfoundland - Labrador,25
+03PD,Newfoundland - Labrador,25
+03PE,Newfoundland - Labrador,25
+03QA,Newfoundland - Labrador,25
+03QB,Newfoundland - Labrador,25
+03QC,Newfoundland - Labrador,25
+04AA,Northern Ontario,17
+04AB,Northern Ontario,17
+04AC,Northern Ontario,17
+04AD,Northern Ontario,17
+04AE,Northern Ontario,17
+04AF,Northern Ontario,17
+04BA,Northern Ontario,17
+04BB,Northern Ontario,17
+04BC,Northern Ontario,17
+04CA,Northern Ontario,17
+04CB,Northern Ontario,17
+04CC,Northern Ontario,17
+04CD,Northern Ontario,17
+04CE,Northern Ontario,17
+04CF,Northern Ontario,17
+04DA,Northern Ontario,17
+04DB,Northern Ontario,17
+04DC,Northern Ontario,17
+04DD,Northern Ontario,17
+04EA,Northern Ontario,17
+04EB,Northern Ontario,17
+04EC,Northern Ontario,17
+04ED,Northern Ontario,17
+04FA,Northern Ontario,17
+04FB,Northern Ontario,17
+04FC,Northern Ontario,17
+04GA,Northern Ontario,17
+04GB,Northern Ontario,17
+04GC,Northern Ontario,17
+04GD,Northern Ontario,17
+04GE,Northern Ontario,17
+04GF,Northern Ontario,17
+04HA,Northern Ontario,17
+04HB,Northern Ontario,17
+04HC,Northern Ontario,17
+04HD,Northern Ontario,17
+04JA,Northern Ontario,17
+04JB,Northern Ontario,17
+04JC,Northern Ontario,17
+04JD,Northern Ontario,17
+04JE,Northern Ontario,17
+04JF,Northern Ontario,17
+04JG,Northern Ontario,17
+04KA,Northern Ontario,17
+04KB,Northern Ontario,17
+04LA,Northern Ontario,17
+04LB,Northern Ontario,17
+04LC,Northern Ontario,17
+04LD,Northern Ontario,17
+04LE,Northern Ontario,17
+04LF,Northern Ontario,17
+04LG,Northern Ontario,17
+04LH,Northern Ontario,17
+04LJ,Northern Ontario,17
+04LK,Northern Ontario,17
+04LL,Northern Ontario,17
+04LM,Northern Ontario,17
+04MA,Northern Ontario,17
+04MB,Northern Ontario,17
+04MC,Northern Ontario,17
+04MD,Northern Ontario,17
+04ME,Northern Ontario,17
+04MF,Northern Ontario,17
+04NA,Northern Quebec,18
+04NB,Northern Quebec,18
+04NC,Northern Quebec,18
+05AA,South Saskatchewan,11
+05AB,South Saskatchewan,11
+05AC,South Saskatchewan,11
+05AD,South Saskatchewan,11
+05AE,South Saskatchewan,11
+05AF,South Saskatchewan,11
+05AG,South Saskatchewan,11
+05AH,South Saskatchewan,11
+05AJ,South Saskatchewan,11
+05AK,South Saskatchewan,11
+05BA,South Saskatchewan,11
+05BB,South Saskatchewan,11
+05BC,South Saskatchewan,11
+05BD,South Saskatchewan,11
+05BE,South Saskatchewan,11
+05BF,South Saskatchewan,11
+05BG,South Saskatchewan,11
+05BH,South Saskatchewan,11
+05BJ,South Saskatchewan,11
+05BK,South Saskatchewan,11
+05BL,South Saskatchewan,11
+05BM,South Saskatchewan,11
+05BN,South Saskatchewan,11
+05CA,South Saskatchewan,11
+05CB,South Saskatchewan,11
+05CC,South Saskatchewan,11
+05CD,South Saskatchewan,11
+05CE,South Saskatchewan,11
+05CF,South Saskatchewan,11
+05CG,South Saskatchewan,11
+05CH,South Saskatchewan,11
+05CJ,South Saskatchewan,11
+05CK,South Saskatchewan,11
+05DA,North Saskatchewan,10
+05DB,North Saskatchewan,10
+05DC,North Saskatchewan,10
+05DD,North Saskatchewan,10
+05DE,North Saskatchewan,10
+05DF,North Saskatchewan,10
+05EA,North Saskatchewan,10
+05EB,North Saskatchewan,10
+05EC,North Saskatchewan,10
+05ED,North Saskatchewan,10
+05EE,North Saskatchewan,10
+05EF,North Saskatchewan,10
+05EG,North Saskatchewan,10
+05FA,North Saskatchewan,10
+05FB,North Saskatchewan,10
+05FC,North Saskatchewan,10
+05FD,North Saskatchewan,10
+05FE,North Saskatchewan,10
+05FF,North Saskatchewan,10
+05GA,North Saskatchewan,10
+05GB,North Saskatchewan,10
+05GC,North Saskatchewan,10
+05GD,North Saskatchewan,10
+05GE,North Saskatchewan,10
+05GF,North Saskatchewan,10
+05GG,North Saskatchewan,10
+05HA,South Saskatchewan,11
+05HB,South Saskatchewan,11
+05HC,South Saskatchewan,11
+05HD,South Saskatchewan,11
+05HE,South Saskatchewan,11
+05HF,South Saskatchewan,11
+05HG,South Saskatchewan,11
+05HH,South Saskatchewan,11
+05JA,Assiniboine - Red,12
+05JB,Assiniboine - Red,12
+05JC,Assiniboine - Red,12
+05JD,Assiniboine - Red,12
+05JE,Assiniboine - Red,12
+05JF,Assiniboine - Red,12
+05JG,Assiniboine - Red,12
+05JH,Assiniboine - Red,12
+05JJ,Assiniboine - Red,12
+05JK,Assiniboine - Red,12
+05JL,Assiniboine - Red,12
+05JM,Assiniboine - Red,12
+05K0,Lower Saskatchewan - Nelson,14
+05K1,Lower Saskatchewan - Nelson,14
+05KA,Lower Saskatchewan - Nelson,14
+05KB,Lower Saskatchewan - Nelson,14
+05KC,Lower Saskatchewan - Nelson,14
+05KD,Lower Saskatchewan - Nelson,14
+05KE,Lower Saskatchewan - Nelson,14
+05KF,Lower Saskatchewan - Nelson,14
+05KG,Lower Saskatchewan - Nelson,14
+05KH,Lower Saskatchewan - Nelson,14
+05KJ,Lower Saskatchewan - Nelson,14
+05KK,Lower Saskatchewan - Nelson,14
+05KL,Lower Saskatchewan - Nelson,14
+05L0,Lower Saskatchewan - Nelson,14
+05L1,Lower Saskatchewan - Nelson,14
+05LA,Lower Saskatchewan - Nelson,14
+05LB,Lower Saskatchewan - Nelson,14
+05LC,Lower Saskatchewan - Nelson,14
+05LD,Lower Saskatchewan - Nelson,14
+05LE,Lower Saskatchewan - Nelson,14
+05LF,Lower Saskatchewan - Nelson,14
+05LG,Lower Saskatchewan - Nelson,14
+05LH,Lower Saskatchewan - Nelson,14
+05LJ,Lower Saskatchewan - Nelson,14
+05LK,Lower Saskatchewan - Nelson,14
+05LL,Lower Saskatchewan - Nelson,14
+05LM,Lower Saskatchewan - Nelson,14
+05LN,Lower Saskatchewan - Nelson,14
+05MA,Assiniboine - Red,12
+05MB,Assiniboine - Red,12
+05MC,Assiniboine - Red,12
+05MD,Assiniboine - Red,12
+05ME,Assiniboine - Red,12
+05MF,Assiniboine - Red,12
+05MG,Assiniboine - Red,12
+05MH,Assiniboine - Red,12
+05MJ,Assiniboine - Red,12
+05NA,Assiniboine - Red,12
+05NB,Assiniboine - Red,12
+05NC,Assiniboine - Red,12
+05ND,Assiniboine - Red,12
+05NE,Assiniboine - Red,12
+05NF,Assiniboine - Red,12
+05NG,Assiniboine - Red,12
+05OA,Assiniboine - Red,12
+05OB,Assiniboine - Red,12
+05OC,Assiniboine - Red,12
+05OD,Assiniboine - Red,12
+05OE,Assiniboine - Red,12
+05OF,Assiniboine - Red,12
+05OG,Assiniboine - Red,12
+05OH,Assiniboine - Red,12
+05OJ,Assiniboine - Red,12
+05PA,Winnipeg,13
+05PB,Winnipeg,13
+05PC,Winnipeg,13
+05PD,Winnipeg,13
+05PE,Winnipeg,13
+05PF,Winnipeg,13
+05PG,Winnipeg,13
+05PH,Winnipeg,13
+05PJ,Winnipeg,13
+05QA,Winnipeg,13
+05QB,Winnipeg,13
+05QC,Winnipeg,13
+05QD,Winnipeg,13
+05QE,Winnipeg,13
+05RA,Lower Saskatchewan - Nelson,14
+05RB,Lower Saskatchewan - Nelson,14
+05RC,Lower Saskatchewan - Nelson,14
+05RD,Lower Saskatchewan - Nelson,14
+05RE,Lower Saskatchewan - Nelson,14
+05RF,Lower Saskatchewan - Nelson,14
+05SA,Lower Saskatchewan - Nelson,14
+05SB,Lower Saskatchewan - Nelson,14
+05SC,Lower Saskatchewan - Nelson,14
+05SD,Lower Saskatchewan - Nelson,14
+05SE,Lower Saskatchewan - Nelson,14
+05SF,Lower Saskatchewan - Nelson,14
+05SG,Lower Saskatchewan - Nelson,14
+05SH,Lower Saskatchewan - Nelson,14
+05TA,Lower Saskatchewan - Nelson,14
+05TB,Lower Saskatchewan - Nelson,14
+05TC,Lower Saskatchewan - Nelson,14
+05TD,Lower Saskatchewan - Nelson,14
+05TE,Lower Saskatchewan - Nelson,14
+05TF,Lower Saskatchewan - Nelson,14
+05TG,Lower Saskatchewan - Nelson,14
+05UA,Lower Saskatchewan - Nelson,14
+05UB,Lower Saskatchewan - Nelson,14
+05UC,Lower Saskatchewan - Nelson,14
+05UD,Lower Saskatchewan - Nelson,14
+05UE,Lower Saskatchewan - Nelson,14
+05UF,Lower Saskatchewan - Nelson,14
+05UG,Lower Saskatchewan - Nelson,14
+05UH,Lower Saskatchewan - Nelson,14
+06AA,Churchill,15
+06AB,Churchill,15
+06AC,Churchill,15
+06AD,Churchill,15
+06AE,Churchill,15
+06AF,Churchill,15
+06AG,Churchill,15
+06BA,Churchill,15
+06BB,Churchill,15
+06BC,Churchill,15
+06BD,Churchill,15
+06CA,Churchill,15
+06CB,Churchill,15
+06CC,Churchill,15
+06CD,Churchill,15
+06CE,Churchill,15
+06DA,Churchill,15
+06DB,Churchill,15
+06DC,Churchill,15
+06DD,Churchill,15
+06EA,Churchill,15
+06EB,Churchill,15
+06EC,Churchill,15
+06FA,Churchill,15
+06FB,Churchill,15
+06FC,Churchill,15
+06FD,Churchill,15
+06FE,Churchill,15
+06GA,Keewatin - Southern Baffin,16
+06GB,Keewatin - Southern Baffin,16
+06GC,Keewatin - Southern Baffin,16
+06GD,Keewatin - Southern Baffin,16
+06GE,Keewatin - Southern Baffin,16
+06HA,Keewatin - Southern Baffin,16
+06HB,Keewatin - Southern Baffin,16
+06HC,Keewatin - Southern Baffin,16
+06HD,Keewatin - Southern Baffin,16
+06HE,Keewatin - Southern Baffin,16
+06JA,Keewatin - Southern Baffin,16
+06JB,Keewatin - Southern Baffin,16
+06JC,Keewatin - Southern Baffin,16
+06JD,Keewatin - Southern Baffin,16
+06KA,Keewatin - Southern Baffin,16
+06KB,Keewatin - Southern Baffin,16
+06KC,Keewatin - Southern Baffin,16
+06LA,Keewatin - Southern Baffin,16
+06LB,Keewatin - Southern Baffin,16
+06LC,Keewatin - Southern Baffin,16
+06MA,Keewatin - Southern Baffin,16
+06MB,Keewatin - Southern Baffin,16
+06MC,Keewatin - Southern Baffin,16
+06NA,Keewatin - Southern Baffin,16
+06NB,Keewatin - Southern Baffin,16
+06NC,Keewatin - Southern Baffin,16
+06OA,Keewatin - Southern Baffin,16
+06OB,Keewatin - Southern Baffin,16
+06PA,Keewatin - Southern Baffin,16
+06QA,Keewatin - Southern Baffin,16
+06RA,Keewatin - Southern Baffin,16
+06RB,Keewatin - Southern Baffin,16
+06RC,Keewatin - Southern Baffin,16
+06SA,Keewatin - Southern Baffin,16
+06SB,Keewatin - Southern Baffin,16
+06SC,Keewatin - Southern Baffin,16
+06SD,Keewatin - Southern Baffin,16
+06SE,Keewatin - Southern Baffin,16
+06TB,Keewatin - Southern Baffin,16
+07AA,Peace - Athabasca,6
+07AB,Peace - Athabasca,6
+07AC,Peace - Athabasca,6
+07AD,Peace - Athabasca,6
+07AE,Peace - Athabasca,6
+07AF,Peace - Athabasca,6
+07AG,Peace - Athabasca,6
+07AH,Peace - Athabasca,6
+07B0,Peace - Athabasca,6
+07BA,Peace - Athabasca,6
+07BB,Peace - Athabasca,6
+07BC,Peace - Athabasca,6
+07BD,Peace - Athabasca,6
+07BE,Peace - Athabasca,6
+07BF,Peace - Athabasca,6
+07BG,Peace - Athabasca,6
+07BH,Peace - Athabasca,6
+07BJ,Peace - Athabasca,6
+07BK,Peace - Athabasca,6
+07CA,Peace - Athabasca,6
+07CB,Peace - Athabasca,6
+07CC,Peace - Athabasca,6
+07CD,Peace - Athabasca,6
+07CE,Peace - Athabasca,6
+07DA,Peace - Athabasca,6
+07DB,Peace - Athabasca,6
+07DC,Peace - Athabasca,6
+07DD,Peace - Athabasca,6
+07EA,Peace - Athabasca,6
+07EB,Peace - Athabasca,6
+07EC,Peace - Athabasca,6
+07ED,Peace - Athabasca,6
+07EE,Peace - Athabasca,6
+07EF,Peace - Athabasca,6
+07FA,Peace - Athabasca,6
+07FB,Peace - Athabasca,6
+07FC,Peace - Athabasca,6
+07FD,Peace - Athabasca,6
+07GA,Peace - Athabasca,6
+07GB,Peace - Athabasca,6
+07GC,Peace - Athabasca,6
+07GD,Peace - Athabasca,6
+07GE,Peace - Athabasca,6
+07GF,Peace - Athabasca,6
+07GG,Peace - Athabasca,6
+07GH,Peace - Athabasca,6
+07GJ,Peace - Athabasca,6
+07HA,Peace - Athabasca,6
+07HB,Peace - Athabasca,6
+07HC,Peace - Athabasca,6
+07HD,Peace - Athabasca,6
+07HE,Peace - Athabasca,6
+07HF,Peace - Athabasca,6
+07JA,Peace - Athabasca,6
+07JB,Peace - Athabasca,6
+07JC,Peace - Athabasca,6
+07JD,Peace - Athabasca,6
+07JE,Peace - Athabasca,6
+07JF,Peace - Athabasca,6
+07KA,Peace - Athabasca,6
+07KB,Peace - Athabasca,6
+07KC,Peace - Athabasca,6
+07KD,Peace - Athabasca,6
+07KE,Peace - Athabasca,6
+07KF,Peace - Athabasca,6
+07LA,Lower Mackenzie,7
+07LB,Lower Mackenzie,7
+07LC,Lower Mackenzie,7
+07LD,Lower Mackenzie,7
+07LE,Lower Mackenzie,7
+07MA,Lower Mackenzie,7
+07MB,Lower Mackenzie,7
+07MC,Lower Mackenzie,7
+07MD,Lower Mackenzie,7
+07NA,Lower Mackenzie,7
+07NB,Lower Mackenzie,7
+07NC,Lower Mackenzie,7
+07OA,Lower Mackenzie,7
+07OB,Lower Mackenzie,7
+07OC,Lower Mackenzie,7
+07PA,Lower Mackenzie,7
+07PB,Lower Mackenzie,7
+07PC,Lower Mackenzie,7
+07QA,Lower Mackenzie,7
+07QB,Lower Mackenzie,7
+07QC,Lower Mackenzie,7
+07QD,Lower Mackenzie,7
+07RA,Lower Mackenzie,7
+07RB,Lower Mackenzie,7
+07RC,Lower Mackenzie,7
+07RD,Lower Mackenzie,7
+07SA,Lower Mackenzie,7
+07SB,Lower Mackenzie,7
+07SC,Lower Mackenzie,7
+07TA,Lower Mackenzie,7
+07TB,Lower Mackenzie,7
+07UA,Lower Mackenzie,7
+07UB,Lower Mackenzie,7
+07UC,Lower Mackenzie,7
+08AA,Pacific coastal,1
+08AB,Pacific coastal,1
+08AC,Pacific coastal,1
+08BA,Pacific coastal,1
+08BB,Pacific coastal,1
+08CA,Pacific coastal,1
+08CB,Pacific coastal,1
+08CC,Pacific coastal,1
+08CD,Pacific coastal,1
+08CE,Pacific coastal,1
+08CF,Pacific coastal,1
+08CG,Pacific coastal,1
+08DA,Pacific coastal,1
+08DB,Pacific coastal,1
+08DC,Pacific coastal,1
+08EA,Pacific coastal,1
+08EB,Pacific coastal,1
+08EC,Pacific coastal,1
+08ED,Pacific coastal,1
+08EE,Pacific coastal,1
+08EF,Pacific coastal,1
+08EG,Pacific coastal,1
+08FA,Pacific coastal,1
+08FB,Pacific coastal,1
+08FC,Pacific coastal,1
+08FD,Pacific coastal,1
+08FE,Pacific coastal,1
+08FF,Pacific coastal,1
+08FG,Pacific coastal,1
+08GA,Pacific coastal,1
+08GB,Pacific coastal,1
+08GC,Pacific coastal,1
+08GD,Pacific coastal,1
+08GE,Pacific coastal,1
+08GF,Pacific coastal,1
+08HA,Pacific coastal,1
+08HB,Pacific coastal,1
+08HC,Pacific coastal,1
+08HD,Pacific coastal,1
+08HE,Pacific coastal,1
+08HF,Pacific coastal,1
+08JA,Fraser - lower mainland,2
+08JB,Fraser - lower mainland,2
+08JC,Fraser - lower mainland,2
+08JD,Fraser - lower mainland,2
+08JE,Fraser - lower mainland,2
+08KA,Fraser - lower mainland,2
+08KB,Fraser - lower mainland,2
+08KC,Fraser - lower mainland,2
+08KD,Fraser - lower mainland,2
+08KE,Fraser - lower mainland,2
+08KF,Fraser - lower mainland,2
+08KG,Fraser - lower mainland,2
+08KH,Fraser - lower mainland,2
+08LA,Fraser - lower mainland,2
+08LB,Fraser - lower mainland,2
+08LC,Fraser - lower mainland,2
+08LD,Fraser - lower mainland,2
+08LE,Fraser - lower mainland,2
+08LF,Fraser - lower mainland,2
+08LG,Fraser - lower mainland,2
+08MA,Fraser - lower mainland,2
+08MB,Fraser - lower mainland,2
+08MC,Fraser - lower mainland,2
+08MD,Fraser - lower mainland,2
+08ME,Fraser - lower mainland,2
+08MF,Fraser - lower mainland,2
+08MG,Fraser - lower mainland,2
+08MH,Fraser - lower mainland,2
+08NA,Columbia,4
+08NB,Columbia,4
+08NC,Columbia,4
+08ND,Columbia,4
+08NE,Columbia,4
+08NF,Columbia,4
+08NG,Columbia,4
+08NH,Columbia,4
+08NJ,Columbia,4
+08NK,Columbia,4
+08NL,Okanagan - Similkameen,3
+08NM,Okanagan - Similkameen,3
+08NN,Columbia,4
+08NP,Columbia,4
+08OA,Pacific coastal,1
+08OB,Pacific coastal,1
+08PA,Fraser - lower mainland,2
+09AA,Yukon,5
+09AB,Yukon,5
+09AC,Yukon,5
+09AD,Yukon,5
+09AE,Yukon,5
+09AF,Yukon,5
+09AG,Yukon,5
+09AH,Yukon,5
+09BA,Yukon,5
+09BB,Yukon,5
+09BC,Yukon,5
+09CA,Yukon,5
+09CB,Yukon,5
+09CC,Yukon,5
+09CD,Yukon,5
+09DA,Yukon,5
+09DB,Yukon,5
+09DC,Yukon,5
+09DD,Yukon,5
+09EA,Yukon,5
+09EB,Yukon,5
+09ED,Yukon,5
+09FA,Yukon,5
+09FB,Yukon,5
+09FC,Yukon,5
+09FD,Yukon,5
+10AA,Lower Mackenzie,7
+10AB,Lower Mackenzie,7
+10AC,Lower Mackenzie,7
+10AD,Lower Mackenzie,7
+10BA,Lower Mackenzie,7
+10BB,Lower Mackenzie,7
+10BC,Lower Mackenzie,7
+10BD,Lower Mackenzie,7
+10BE,Lower Mackenzie,7
+10CA,Lower Mackenzie,7
+10CB,Lower Mackenzie,7
+10CC,Lower Mackenzie,7
+10CD,Lower Mackenzie,7
+10CE,Lower Mackenzie,7
+10CF,Lower Mackenzie,7
+10DA,Lower Mackenzie,7
+10DB,Lower Mackenzie,7
+10EA,Lower Mackenzie,7
+10EB,Lower Mackenzie,7
+10EC,Lower Mackenzie,7
+10ED,Lower Mackenzie,7
+10FA,Lower Mackenzie,7
+10FB,Lower Mackenzie,7
+10FC,Lower Mackenzie,7
+10GA,Lower Mackenzie,7
+10GB,Lower Mackenzie,7
+10GC,Lower Mackenzie,7
+10GD,Lower Mackenzie,7
+10HA,Lower Mackenzie,7
+10HB,Lower Mackenzie,7
+10HC,Lower Mackenzie,7
+10J1,Lower Mackenzie,7
+10JA,Lower Mackenzie,7
+10JB,Lower Mackenzie,7
+10JC,Lower Mackenzie,7
+10JD,Lower Mackenzie,7
+10JE,Lower Mackenzie,7
+10KA,Lower Mackenzie,7
+10KB,Lower Mackenzie,7
+10KC,Lower Mackenzie,7
+10KD,Lower Mackenzie,7
+10LA,Lower Mackenzie,7
+10LB,Lower Mackenzie,7
+10LC,Lower Mackenzie,7
+10LD,Lower Mackenzie,7
+10MA,Lower Mackenzie,7
+10MB,Lower Mackenzie,7
+10MC,Lower Mackenzie,7
+10MD,Lower Mackenzie,7
+10NA,Arctic Coast - Islands,8
+10NB,Arctic Coast - Islands,8
+10NC,Arctic Coast - Islands,8
+10ND,Arctic Coast - Islands,8
+10NE,Arctic Coast - Islands,8
+10OA,Arctic Coast - Islands,8
+10OB,Arctic Coast - Islands,8
+10OC,Arctic Coast - Islands,8
+10PA,Arctic Coast - Islands,8
+10PB,Arctic Coast - Islands,8
+10PC,Arctic Coast - Islands,8
+10QA,Arctic Coast - Islands,8
+10QB,Arctic Coast - Islands,8
+10QC,Arctic Coast - Islands,8
+10QD,Arctic Coast - Islands,8
+10QE,Arctic Coast - Islands,8
+10QF,Arctic Coast - Islands,8
+10RA,Arctic Coast - Islands,8
+10RB,Arctic Coast - Islands,8
+10RC,Arctic Coast - Islands,8
+10RD,Arctic Coast - Islands,8
+10SA,Arctic Coast - Islands,8
+10SB,Arctic Coast - Islands,8
+10SC,Arctic Coast - Islands,8
+10SD,Arctic Coast - Islands,8
+10SE,Arctic Coast - Islands,8
+10TA,Arctic Coast - Islands,8
+10TB,Arctic Coast - Islands,8
+10TC,Arctic Coast - Islands,8
+10TD,Arctic Coast - Islands,8
+10TE,Arctic Coast - Islands,8
+10TF,Arctic Coast - Islands,8
+10TH,Arctic Coast - Islands,8
+10TJ,Arctic Coast - Islands,8
+10TK,Arctic Coast - Islands,8
+10TL,Arctic Coast - Islands,8
+10TM,Arctic Coast - Islands,8
+10TN,Arctic Coast - Islands,8
+10UA,Arctic Coast - Islands,8
+10UB,Arctic Coast - Islands,8
+10UD,Arctic Coast - Islands,8
+10UF,Arctic Coast - Islands,8
+10UG,Arctic Coast - Islands,8
+10UH,Arctic Coast - Islands,8
+10VA,Arctic Coast - Islands,8
+10VB,Arctic Coast - Islands,8
+10VC,Arctic Coast - Islands,8
+10VD,Arctic Coast - Islands,8
+10VE,Arctic Coast - Islands,8
+10VH,Arctic Coast - Islands,8
+10VJ,Arctic Coast - Islands,8
+10VK,Arctic Coast - Islands,8
+10VL,Arctic Coast - Islands,8
+10VM,Arctic Coast - Islands,8
+11AA,Missouri,9
+11AB,Missouri,9
+11AC,Missouri,9
+11AD,Missouri,9
+11AE,Missouri,9

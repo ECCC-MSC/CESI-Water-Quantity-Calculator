@@ -1,0 +1,364 @@
+---
+title: "CESI Internal Report"
+author: "Water Survey of Canada"
+date: '`r Sys.Date()`'
+header-includes:
+  - \usepackage{float}
+output: pdf_document
+
+---
+
+```{r setup, include = FALSE}
+
+#######################################################-
+#             R MARKDOWN INTERNAL REPORT
+#
+# Objective: Create a document that contains all values
+# from calculating the Water Quantity Indicators. Text,
+# visuals, and tables can be altered below. 
+#
+# Date modified: November 2018
+#######################################################-
+
+### SECTION 1: CONNECT TO TABLES ### 
+
+# IF THIS IS A NEW SESSION : Run 00_Packages and 01_Configuration #
+  source("00_Packages.R")
+  source("01_Configuration.R")
+
+  version <- "2019-01" # Optional: To manually alter the HYDAT version used (may be necessary to read files below)
+
+# Searches within the output folders where they were written (relative to the year.id variable in 01_Configuration)
+  report_variables <- read.csv(paste("Output/", year_id, "/", year_id, "_report_variables_HYDAT_", version, ".csv", sep=""), header= TRUE)
+  local <- read.csv(paste("Output/", year_id, "/", year_id, "_local_entry_HYDAT_", version, ".csv", sep=""), header= TRUE)
+  regional <- read.csv(paste("Output/", year_id, "/", year_id, "_regional_map_HYDAT_", version, ".csv", sep=""), header= TRUE)
+
+# As per the Run_all file, to replace the map images with the ones for the current year, find the three image locations below 
+# and update the folder and file name (year_id) to connect to the correct file. You can also CTRL-F and replace all year values. 
+
+```
+
+# Canadian Environmental Sustainability Indicators
+
+Every other year, the Water Survey of Canada produces the Canadian Environmental Sustainability Indicators (CESI) that assess water quantity across Canada. As of 2019, there were over 2100 active stations collecting flow data in the hydrometric network, with most stations reporting real-time data. This document provides supplementary information about the indicator values for internal reference. 
+
+## Supplementary Station Information
+
+When CESI indicators are calculated, stations are removed from the analysis based on the historical flow data record, as well as the completeness of data for the current year. Flow values from the year of analysis are compared against a normal period of `r normal_start` to `r normal_end` (or `r qc_nrm_start` to `r qc_nrm_end` for Northern Quebec stations) in order to evaluate whether each daily value falls within the range of normal values for that date. 
+
+Stations are not used for the indicators if: 
+
+* there are less than `r normal_threshold` years of data within the 30 year normal period (for each day of the year), 
+* the number of days for the current year is less than `r seasonal_threshold` days for seasonal stations (of approximately 217 days overall),
+* or the number of days for the current year is less than `r continuous_threshold` for continuous stations (of 365 or 356 days).  
+
+
+```{r, echo= FALSE}
+
+## Connect to all report objects in the table ##
+
+year_id <- report_variables$year_id # 1
+flow_stations <- report_variables$flow_stations # 2
+norm_enough <- report_variables$norm_enough # 3
+stations_w_np <- report_variables$stations_w_np # 4
+qc_flow_stations <- report_variables$qc_flow_stations # 5 
+qc_stations_w_np <- report_variables$qc_stations_w_np # 6
+qc_enough <- report_variables$qc_enough # 7
+seasonal <- report_variables$seasonal # 8
+continuous <- report_variables$continuous # 9
+final_stations <- report_variables$final_stations # 10
+
+version <- report_variables$version
+
+```
+Annual reporting station summary: 
+
+1. Year: `r year_id`
+2. Number of stations with flow data for analysis year: `r flow_stations`
+3. Percent of stations' dates with enough years in the normal period: `r norm_enough`
+4. Number of stations with enough data in the normal period: `r stations_w_np`
+5. Number of northern Quebec stations with flow data in the analysis year: `r qc_flow_stations`
+6. Number of northern Quebec stations with enough data in the normal period:`r qc_stations_w_np`
+7. Percent of QC stations' dates with enough years in the normal period: `r qc_enough`
+8. Number of seasonal stations with at least 174 of 217 days: `r seasonal`
+9. Number of continuous stations with at least 292 of 365/6 days: `r continuous`
+10. Final number of stations used for calculation of the indicators: `r final_stations`
+
+HYDAT database version date: `r version`
+  
+\newpage
+
+## Local Water Quantity Indicator
+
+\begin{figure}[H]
+    \includegraphics{./Output/2017/Local_2017.jpg}
+    \caption{Local indicator map with hydrometric station points across Canada}
+\end{figure}
+
+   
+
+\newpage
+
+## Regional Water Quantity Indicator
+
+\begin{figure}[H]
+    \includegraphics{./Output/2017/Regional_2017.jpg}
+    \caption{Regional indicator map with based on most downstream stations in each Pearse Drainage Region}
+\end{figure}
+
+
+\newpage
+
+### Station summary by Pearse Drainage Area
+
+This table summarizes the number and types of stations per Pearse Drainage Area that were used for `r year_id` to calculate the local indicator (Con = Continuous, Seas = Seasonal, Reg = Regulated, Nat = Natural).
+
+``` {r regtable, echo= FALSE, warning= FALSE, message= FALSE}
+df <- data.frame(local)
+nostations <- local %>% group_by(PEARSEDA) %>% tally() %>% plyr::rename(c('n'='nostations'))
+continnat <- filter(local, Reg. == 0, OperSched == 'Continuous')
+continnat1 <- continnat %>% group_by(PEARSEDA) %>% tally() %>% plyr::rename(c('n'='continnat'))
+continreg <- filter(local, Reg. == 1, OperSched == 'Continuous')
+continreg1 <- continreg %>% group_by(PEARSEDA) %>% tally() %>% plyr::rename(c('n'='continreg'))
+seasnat <- filter(local, Reg. == 0, OperSched == 'Seasonal')
+seasnat1 <- seasnat %>% group_by(PEARSEDA) %>% tally() %>% plyr::rename(c('n'='seasnat'))
+seasreg <- filter(local, Reg. == 1, OperSched == 'Seasonal')
+seasreg1 <- seasreg %>% group_by(PEARSEDA) %>% tally() %>% plyr::rename(c('n'='seasreg'))
+
+PDAsummary <- left_join(nostations, continnat1, by = "PEARSEDA") %>% left_join(continreg1, by = "PEARSEDA") %>%
+                 left_join(seasnat1, by = "PEARSEDA") %>% left_join(seasreg1, by = "PEARSEDA")
+PDAsummary[is.na(PDAsummary)] <- 0
+sumrow <- numcolwise(sum)(PDAsummary) 
+PDAsummary <- data.table(bind_rows(PDAsummary, sumrow))
+row_value <- as.numeric(nrow(PDAsummary)) # This value will change if PDAs are missing
+PDAsummary[row_value, "PEARSEDA"] <-"**Total**" 
+
+names(PDAsummary) <- c("Pearse Drainage Area", "# of Stations", "Con/Nat", "Con/Reg", "Seas/Nat", "Seas/Reg") 
+kable(PDAsummary, format = "markdown", row.names= FALSE)
+```
+
+
+\newpage
+
+### Downstream Stations Summary for `r year_id`
+
+(1) Pearse Drainage Area (PDA)
+(2) Flow type in `r year_id`
+(3) PDA total drainage area (m^3^)
+(4) Proportion of area gauged by all classes (Low, Normal, High)
+(5) Number of downstream stations classified as "Low" for PDA
+(6) Proportion of area in PDA gauged by "Low" stations
+(7) Number of downstream stations classified as "Normal" for PDA
+(8) Proportion of area in PDA gauged by "Normal" stations
+(9) Number of downstream stations classified as "High" for PDA
+(10) Proportion of area in PDA gauged by "High" stations
+
+``` {r kabletable, echo= FALSE, warning= FALSE, message= FALSE}
+rtable1 <- select(regional, PERSEDA_CODE, Flow_Type, TOTAL_DA, TotalGauged, Low, LowDrainage, Normal, NormalDrainage, High, HighDrainage) 
+rtable1 <- rtable1[order(rtable1$PERSEDA_CODE),]
+names(rtable1) <- c("1 PDA", "2 Flow", "3 Area", "4 Total", "5 Low", "6 Low", "7 Norm", "8 Norm", "9 High", "10 High") 
+kable(rtable1, format = "markdown", row.names= FALSE)
+```
+
+
+
+\newpage
+
+## National Water Quantity Indicator
+
+\begin{figure}[H]
+    \includegraphics{./Output/2017/2017_national_indicator_HYDAT_2019-01.jpg}
+    \caption{Overall classifications for all hydrometric stations in Canada in analysis year}
+\end{figure}
+
+
+\newpage
+## Appendix 1 
+
+This is the list of hydrometric stations that collected flow data in the year of analysis, and were included in the calculations of the local, regional, and national CESI indicators. The stations are grouped in the 25 Pearse Drainage Areas of Canada. 
+
+```{r appendix, echo= FALSE, warning= FALSE, message= FALSE, include= FALSE}
+local_select <- select(local, Station, Flow_Type, Reg., OperSched, DrainageArea, PEARSEDA)
+local_select$Reg. <- gsub(1, 'Regulated', local_select$Reg.)
+local_select$Reg. <- gsub(0, 'Natural', local_select$Reg.)
+names(local_select) <- c("Station Number","Water Quantity","Water Flow","Sampling Frequency","Drainage Area", "PEARSEDA")
+
+```
+
+### (1) Pacific Coastal drainage area
+
+```{r pacific, echo= FALSE, warning=FALSE, message=FALSE}
+da1 <- subset(local_select, PEARSEDA == "Pacific coastal") %>% select(-PEARSEDA)
+kable(da1, format = "markdown", row.names= FALSE)
+```
+
+### (2) Fraser-Lower Mainland drainage area 
+
+```{r fraser, echo= FALSE, warning= FALSE, message= FALSE}
+da2 <- subset(local_select, PEARSEDA == "Fraser - lower mainland") %>% select(-PEARSEDA)
+kable(da2, format = "markdown", row.names = FALSE)
+```
+
+### (3) Okanagan - Similkameen drainage area             
+
+```{r okanagan, echo= FALSE, warning= FALSE, message= FALSE}
+da3 <- subset(local_select, PEARSEDA == "Okanagan - Similkameen") %>% select(-PEARSEDA)
+kable(da3, format = "markdown", row.names = FALSE)
+```
+
+### (4) Columbia drainage area             
+
+```{r columbia, echo= FALSE, warning= FALSE, message= FALSE}
+da4 <- subset(local_select, PEARSEDA == "Columbia") %>% select(-PEARSEDA)
+kable(da4, format = "markdown", row.names = FALSE)
+```
+
+### (5) Yukon drainage area             
+
+```{r yukon, echo= FALSE, warning= FALSE, message= FALSE}
+da5 <- subset(local_select, PEARSEDA == "Yukon") %>% select(-PEARSEDA)
+kable(da5, format = "markdown", row.names = FALSE)
+```
+
+### (6) Peace - Athabasca drainage area             
+
+```{r peace, echo= FALSE, warning= FALSE, message= FALSE}
+da6 <- subset(local_select, PEARSEDA == "Peace - Athabasca") %>% select(-PEARSEDA)
+kable(da6, format = "markdown", row.names = FALSE)
+```
+
+### (7) Lower Mackenzie drainage area             
+
+```{r mackenzie, echo= FALSE, warning= FALSE, message= FALSE}
+da7 <- subset(local_select, PEARSEDA == "Lower Mackenzie") %>% select(-PEARSEDA)
+kable(da7, format = "markdown", row.names = FALSE)
+```
+
+### (8) Arctic Coast - Islands drainage area             
+
+```{r arctic, echo= FALSE, warning= FALSE, message= FALSE}
+da8 <- subset(local_select, PEARSEDA == "Arctic Coast - Islands") %>% select(-PEARSEDA)
+kable(da8, format = "markdown", row.names = FALSE)
+```
+
+### (9) Missouri drainage area             
+
+```{r missouri, echo= FALSE, warning= FALSE, message= FALSE}
+da9 <- subset(local_select, PEARSEDA == "Missouri") %>% select(-PEARSEDA)
+kable(da9, format = "markdown", row.names = FALSE)
+```
+
+### (10) North Saskatchewan drainage area             
+
+```{r nsask, echo= FALSE, warning= FALSE, message= FALSE}
+da10 <- subset(local_select, PEARSEDA == "North Saskatchewan") %>% select(-PEARSEDA)
+kable(da10, format = "markdown", row.names = FALSE)
+```
+
+### (11) South Saskatchewan drainage area             
+
+```{r ssask, echo= FALSE, warning= FALSE, message= FALSE}
+da11 <- subset(local_select, PEARSEDA == "South Saskatchewan") %>% select(-PEARSEDA)
+kable(da11, format = "markdown", row.names = FALSE)
+```
+
+### (12) Assiniboine - Red drainage area             
+
+```{r assiniboine, echo= FALSE, warning= FALSE, message= FALSE}
+da12 <- subset(local_select, PEARSEDA == "Assiniboine - Red") %>% select(-PEARSEDA)
+kable(da12, format = "markdown", row.names = FALSE)
+```
+
+### (13) Winnipeg drainage area             
+
+```{r winnipeg, echo= FALSE, warning= FALSE, message= FALSE}
+da13 <- subset(local_select, PEARSEDA == "Winnipeg") %>% select(-PEARSEDA)
+kable(da13, format = "markdown", row.names = FALSE)
+```
+
+### (14) Lower Saskatchewan - Nelson drainage area             
+
+```{r sasknel, echo= FALSE, warning= FALSE, message= FALSE}
+da14 <- subset(local_select, PEARSEDA == "Lower Saskatchewan - Nelson") %>% select(-PEARSEDA)
+kable(da14, format = "markdown", row.names = FALSE)
+```
+
+### (15) Churchill drainage area             
+
+```{r churchill, echo= FALSE, warning= FALSE, message= FALSE}
+da15 <- subset(local_select, PEARSEDA == "Churchill") %>% select(-PEARSEDA)
+kable(da15, format = "markdown", row.names = FALSE)
+```
+
+### (16) Keewatin - Southern Baffin drainage area             
+
+```{r keewatin, echo= FALSE, warning= FALSE, message= FALSE}
+da16 <- subset(local_select, PEARSEDA == "Keewatin - Southern Baffin") %>% select(-PEARSEDA)
+kable(da16, format = "markdown", row.names = FALSE)
+```
+
+### (17) Northern Ontario drainage area             
+
+```{r ontario, echo= FALSE, warning= FALSE, message= FALSE}
+da17 <- subset(local_select, PEARSEDA == "Northern Ontario") %>% select(-PEARSEDA)
+kable(da17, format = "markdown", row.names = FALSE)
+```
+
+### (18) Northern Quebec drainage area             
+
+```{r quebec, echo= FALSE, warning= FALSE, message= FALSE}
+da18 <- subset(local_select, PEARSEDA == "Northern Quebec") %>% select(-PEARSEDA)
+kable(da18, format = "markdown", row.names = FALSE)
+```
+
+### (19) Great Lakes drainage area             
+
+```{r lakes, echo= FALSE, warning= FALSE, message= FALSE}
+da19 <- subset(local_select, PEARSEDA == "Great Lakes") %>% select(-PEARSEDA)
+kable(da19, format = "markdown", row.names = FALSE)
+```
+
+### (20) Ottawa drainage area             
+
+```{r ottawa, echo= FALSE, warning= FALSE, message= FALSE}
+da20 <- subset(local_select, PEARSEDA == "Ottawa") %>% select(-PEARSEDA)
+kable(da20, format = "markdown", row.names = FALSE)
+```
+
+### (21) St. Lawrence drainage area             
+
+```{r lawrence, echo= FALSE, warning= FALSE, message= FALSE}
+da21 <- subset(local_select, PEARSEDA == "St. Lawrence") %>% select(-PEARSEDA)
+kable(da21, format = "markdown", row.names = FALSE)
+```
+
+### (22) North Shore - Gaspe drainage area             
+
+```{r gaspe, echo= FALSE, warning= FALSE, message= FALSE}
+da22 <- subset(local_select, PEARSEDA == "North Shore - Gaspe") %>% select(-PEARSEDA)
+kable(da22, format = "markdown", row.names = FALSE)
+```
+
+### (23) Saint John - St. Croix drainage area             
+
+```{r croix, echo= FALSE, warning= FALSE, message= FALSE}
+da23 <- subset(local_select, PEARSEDA == "Saint John - St. Croix") %>% select(-PEARSEDA)
+kable(da23, format = "markdown", row.names = FALSE)
+```
+
+### (24)  Maritime Coastal drainage area             
+
+```{r maritime, echo= FALSE, warning= FALSE, message= FALSE}
+da24 <- subset(local_select, PEARSEDA == "Maritime Coastal") %>% select(-PEARSEDA)
+kable(da24, format = "markdown", row.names = FALSE)
+```
+
+### (25) Newfoundland - Labrador drainage area             
+
+```{r newfoundland, echo= FALSE, warning= FALSE, message= FALSE}
+da25 <- subset(local_select, PEARSEDA == "Newfoundland - Labrador") %>% select(-PEARSEDA)
+kable(da25, format = "markdown", row.names = FALSE)
+```
+
+
+
