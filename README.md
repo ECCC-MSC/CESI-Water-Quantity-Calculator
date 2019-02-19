@@ -23,6 +23,9 @@ Introductory documentation is provided in the CESI in R file, with additional st
 * Graphs
 * R Markdown Report
 
+## Issues
+For questions and issues about this project, please submit a detailed description through the [Issues](https://github.com/ECCC-MSC/CESI-Water-Quantity-Calculator/issues) tab.
+
 ## Source Data
 The HYDAT database is licenced under the [License Agreement for Use of Environment and Climate Change Canada Data](http://climate.weather.gc.ca/prods_servs/attachment1_e.html) and the [Disclaimer for Near Real-Time and Historical Water Level and Streamflow Information](https://wateroffice.ec.gc.ca/disclaimer_info_e.html). 
 
